@@ -1,0 +1,96 @@
+*{
+margin: 0;
+padding: 0;
+}
+/* 
+utilityclass */
+
+.image-resonsive{
+    width: 100%;
+    
+}
+.sec{
+    transform: translate(rgba(0,0,0,1),rgba(0,0,0,0.1));
+    border: 1p solid red;
+    background-image: url(../pratice2/meal.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+
+}
+
+.d-sec{
+color: white ;    
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+
+}
+ h1{
+    text-align: center;
+    font-size: 5rem;
+}
+.posttext{
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 80%;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+}
+p{
+    margin-bottom: 10px;
+}
+.postcode{
+    text-align: center;
+}
+
+#bu {
+    color:white;
+    padding: 0.3rem;
+    width: 40%;
+    display: inline-block;
+    margin-left: 30%;
+    margin-right: 70%;
+    background-color: blue;
+    border-radius: 0.3rem;
+    outline: none;
+    border: none;
+    text-align: center;
+    margin-top: 0.4rem;
+}
+
+/* product */
+
+.product{
+    margin-top: 3rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.food_list{
+
+    float: left;
+    width: 30%;
+    margin-left: 2rem;
+
+
+}
+.food_list:first-of-type{
+    margin: 0;
+
+    
+    
+
+}
+
+@media screen and (max-width : 894px){
+    .food_list{
+
+        float: none;
+        width: 100%;
+    }
+}
